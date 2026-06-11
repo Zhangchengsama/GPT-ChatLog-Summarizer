@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ChatGPT 聊天归档</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main class="panel">
+      <header class="header">
+        <h1>ChatGPT 聊天归档</h1>
+        <p id="folderStatus" class="muted">尚未选择归档文件夹。</p>
+      </header>
+
+      <section class="actions">
+        <button id="chooseFolderButton" type="button" class="secondary">
+          选择归档文件夹
+        </button>
+        <button id="archiveButton" type="button">
+          归档当前聊天
+        </button>
+      </section>
+
+      <p id="status" class="status" role="status" aria-live="polite"></p>
+      <pre id="details" class="details" hidden></pre>
+    </main>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Editor and OS noise
+.DS_Store
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Dependency/build folders for future modules
+node_modules/
+dist/
+build/
+.cache/
+
+# Local archive outputs
+archive/
+.ai-archive/
